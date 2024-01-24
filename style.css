@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+#container div:not(:first-child) {
+    padding: 3px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: green;
+    box-sizing: border-box;
+}
+
+.inner {
+    
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 33px;
+  
+}
+
+.square {
+    width: 80px;
+    height: 80px; 
+    margin-top: 40px;
+    margin-left: 33px;
+    background-color: white; /* You can adjust the background color if needed */
+}
+
+.triangle {
+     
+  background-color: transparent;
+    margin-top: 40px;
+    margin-left: 33px;
+    width: 0;
+      height: 0;
+      border-bottom: 80px solid rgb(241, 235, 235);
+      border-right: 90px solid transparent;
+    
+}
+
+.circle {
+    margin-top: 40px;
+    margin-left: 33px;
+    width: 100px;
+    height: 100px;
+    background: rgb(248, 245, 245);
+    border-radius: 50%
+
+}
+
+.rectangle {
+    margin-top: 60px;
+    margin-left: 33px;
+    width: 80px;
+    height: 40px; 
+    background-color: rgb(222, 233, 227);
+}
